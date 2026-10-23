@@ -6,10 +6,6 @@ const nextConfig: NextConfig = {
     // Mengizinkan proses build produksi tetap selesai meskipun ada error TypeScript
     ignoreBuildErrors: true,
   },
-  eslint: {
-    // (Opsional) Mengabaikan error ESLint juga jika diperlukan
-    ignoreDuringBuilds: true,
-  }, 
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
